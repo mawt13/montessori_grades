@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Montessori Grades</title>
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A production ready example Rails app that's using Docker and Docker Compose.">
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+
+    <%# Generated with: https://realfavicongenerator.net/ %>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body class="flex flex-col h-screen justify-between">
+    <div class="bg-gray-700">
+      <div class="max-w-screen-lg mx-auto py-3 px-3 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between flex-wrap">
+          <div class="flex-1 flex items-center">
+            <span class="flex p-2 rounded-lg bg-gray-900">
+<svg
+class="w-6 h-6"
+   viewBox="0 0 99.318266 253.25706"
+   version="1.1"
+   id="svg5"
+
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1"
+     transform="translate(22.337924,-47.822034)">
+    <rect
+       style="fill:#ff8080;stroke-width:0.264583"
+       id="rect111"
+       width="40"
+       height="40"
+       x="8.5796738"
+       y="255.07307"
+       ry="2.5710001" />
+    <rect
+       style="fill:#ff8080;stroke-width:0.264583"
+       id="rect111-7"
+       width="32.400002"
+       height="32.400002"
+       x="11.693724"
+       y="222.10469"
+       ry="2.5169492" />
+    <rect
+       style="fill:#ff8080;stroke-width:0.264583"
+       id="rect141"
+       width="29.16"
+       height="29.16"
+       x="12.880996"
+       y="192.39963"
+       ry="2.5169489" />
+    <rect
+       style="fill:#ff8080;stroke-width:0.264583"
+       id="rect143"
+       width="26.24"
+       height="26.24"
+       x="13.698542"
+       y="165.96478"
+       ry="2.5169487" />
+    <rect
+       style="fill:#ff8080;stroke-width:0.264583"
+       id="rect304"
+       width="23.620001"
+       height="23.620001"
+       x="14.789373"
+       y="141.97797"
+       ry="2.517" />
+    <rect
+       style="fill:#ff8080;stroke-width:0.264583"
+       id="rect308"
+       width="21.257999"
+       height="21.257999"
+       x="15.52884"
+       y="120.53339"
+       ry="2.517" />
+    <rect
+       style="fill:#ff8080;stroke-width:0.264583"
+       id="rect310"
+       width="19.132"
+       height="19.132"
+       x="16.638037"
+       y="101.3072"
+       ry="2.517" />
+    <rect
+       style="fill:#ff8080;stroke-width:0.264583"
+       id="rect312"
+       width="17.219"
+       height="17.219"
+       x="17.377512"
+       y="83.929688"
+       ry="2.517" />
+    <rect
+       style="fill:#ff8080;stroke-width:0.264583"
+       id="rect314"
+       width="15.497"
+       height="15.497"
+       x="18.486713"
+       y="68.031113"
+       ry="2.517" />
+    <rect
+       style="fill:#ff8080;stroke-width:0.264583"
+       id="rect316"
+       width="13.947"
+       height="13.947"
+       x="19.226187"
+       y="53.981209"
+       ry="2.517" />
+  </g>
+</svg>
+
+
+<!-- 
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+
+-->
+            </span>
+            <p class="ml-3 font-medium text-white truncate">
+              Montessori Grades
+            </p>
+          </div>
+          <div class="mt-2 order-3 w-full sm:mt-0 sm:w-auto" style="margin-top: .5rem;">
+            <div class="rounded-md shadow-sm">
+              <span class="flex items-center justify-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white bg-gray-500">
+                RAILS_ENV = <%= Rails.env %>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main class="max-w-screen-lg mx-auto mb-auto">
+      <%= yield %>
+    </main>
+
+    <footer class="text-center mt-6 pb-6 h-10">
+      <p class="text-gray-500">
+        Coded with <svg class="h-5 w-5 text-red-600 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg> by <a class="border-b mb-1" href="">Matthew Thompson</a>
+      </p>
+    </footer>
+  </body>
+</html>
